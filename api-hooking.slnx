@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="api-hooking.vcxproj" />
+  <Project Path="api-hooking.vcxproj" Id="0b9cb69e-10aa-4584-90a4-7ebdae3788a2" />
 </Solution>

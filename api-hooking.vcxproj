@@ -130,10 +130,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\detour.h" />
     <ClInclude Include="include\iat_hook.h" />
+    <ClInclude Include="include\ldisasm.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\detour.c" />
     <ClCompile Include="src\iat_hook.c" />
+    <ClCompile Include="src\ldisasm.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

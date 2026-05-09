@@ -18,12 +18,24 @@
     <ClInclude Include="include\iat_hook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\ldisasm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\detour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\iat_hook.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ldisasm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detour.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
